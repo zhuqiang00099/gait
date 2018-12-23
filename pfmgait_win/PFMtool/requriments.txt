@@ -1,0 +1,4 @@
+boost
+opencv
+cygwin(可能)
+均需 VS2015 即VC14 64位版本
