@@ -35,3 +35,9 @@ arXiv:1601.06931, January 2016
 [5] F.M. Castro, M. Marin-Jimenez, N. Guil,
 ["Multimodal features fusion for gait, gender and shoes recognition"] (https://doi.org/10.1007/s00138-016-0767-5)
 Machine Vision and Applications, May 2016
+
+# 说明
+1. 仅限zq文件夹里的mat文件保证能跑，不缺东西
+2. 由于代码使用了Motion2D工具、wDense工具，需要自己编译这两个。我提供了exe，在PFMtool文件夹中，但是应该是需要对应动态链接库的，Motion2D是在cygwin环境下编译的，wDense需要opencv3.3(may be)。
+3. 这种字典编码的方式挺有限的，能拿来跑对比试验吧^_^。不过我跑出来感觉准确率并没有论文里那么高。
+
